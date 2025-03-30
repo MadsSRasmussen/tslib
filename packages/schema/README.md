@@ -8,14 +8,14 @@ Features of the library includes:
 
 The library was originally developed to facilitate function-calling-definitions in a unified way to different ai-providers.
 
-#### Table of contents:
+## Table of contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Serializers](#serializers)
 
-#### Installation
+## Installation
 
-##### Using Deno:
+### Using Deno:
 
 The Schema library is on `jsr` under `@msrass/schema`. You can include the library directly in a deno project with:
 
@@ -29,7 +29,7 @@ Or using the `deno add` command:
 deno add jsr:@msrass/schema
 ```
 
-#### Usage
+## Usage
 
 To declare a schema, simply import the abstract Schema class from the module:
 ```ts
@@ -60,13 +60,13 @@ const serializedSchema = serializer.serialize(schema);
 const deserializedSchema = serializer.deserialize(serializedSchema); // Schema instance
 ```
 
-#### Serializers
+## Serializers
 
 The following is a complete list of all serializers available:
 
 - [OpenAISerializer](#openaiserializer)
 
-##### OpenAISerializer
+### OpenAISerializer
 
 The OpenAISerializer serializes data in a format that is directly compatible with the OpenAI api.
 
