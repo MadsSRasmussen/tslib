@@ -12,6 +12,7 @@ The library was originally developed to facilitate function-calling-definitions 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Serializers](#serializers)
+- [Contributing](#contributing)
 
 ## Installation
 
