@@ -6,6 +6,15 @@
         "./types": "./src/types.ts",
         "./serialization": "./src/serialization/index.ts"
     },
+    "publish": {
+        "include": [
+            "README.md",
+            "src/**/*.ts"
+        ],
+        "exclude": [
+            "src/tests"
+        ]
+    },
     "tasks": {
         "dev": "deno test --watch"
     },
