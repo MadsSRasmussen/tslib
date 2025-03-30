@@ -8,11 +8,9 @@
     },
     "publish": {
         "include": [
+            "mod.ts",
             "README.md",
             "src/**/*.ts"
-        ],
-        "exclude": [
-            "src/tests"
         ]
     },
     "tasks": {
