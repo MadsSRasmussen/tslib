@@ -107,3 +107,13 @@ The following is how the `objectSchema` specified in the usage example would be 
     "additionalProperties": false
 }
 ```
+
+## Contributing
+
+This project came to be based on the specific need I had; sending schema definitions between client and server in multiple formats.
+The scope is very simple, as that is the only feature of the project, it is crucially NOT a schema *validation* library similar to the likes of `Zod`.
+
+As a result of the very minimal scope of this project, it has 0 dependencies.
+
+The project is build in `Deno` and uses the `Deno.test` test-runner.
+You are more than welcome to clone the project and submit a PR.
