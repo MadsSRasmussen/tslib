@@ -1,5 +1,5 @@
 {
-    "name": "@packages/query",
+    "name": "@msrass/query",
     "version": "0.1.0",
     "exports": {
         ".": "./mod.ts",
@@ -9,5 +9,8 @@
     "tasks": {
         "dev": "deno test --watch"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "imports": {
+        "mysql2": "npm:mysql2@^3.14.0"
+    }
 }

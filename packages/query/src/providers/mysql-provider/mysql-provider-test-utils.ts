@@ -4,7 +4,7 @@ import {
     createConnection,
     type FieldPacket,
     type QueryResult,
-} from 'npm:mysql2/promise';
+} from 'mysql2/promise';
 import type { FieldData } from '../../query/types.ts';
 
 export const TestConnectionConfig: ConnectionOptions = {

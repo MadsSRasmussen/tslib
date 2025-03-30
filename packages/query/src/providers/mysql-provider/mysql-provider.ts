@@ -8,7 +8,7 @@ import {
     type FieldPacket,
     type QueryResult,
     type RowDataPacket,
-} from 'npm:mysql2/promise';
+} from 'mysql2/promise';
 
 // TODO: Typescript does not recognize the query method on the base Connection class, why?
 type MySQLConnection = Connection & {

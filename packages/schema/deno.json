@@ -1,5 +1,5 @@
 {
-    "name": "@packages/schema",
+    "name": "@msrass/schema",
     "version": "0.1.0",
     "exports": {
         ".": "./mod.ts",
