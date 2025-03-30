@@ -1,0 +1,13 @@
+{
+    "name": "@packages/query",
+    "version": "0.1.0",
+    "exports": {
+        ".": "./mod.ts",
+        "./types": "./src/types.ts",
+        "./providers": "./src/providers/index.ts"
+    },
+    "tasks": {
+        "dev": "deno test --watch"
+    },
+    "license": "MIT"
+}

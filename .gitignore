@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+.cov
+node_modules
+playground
+playground.ts
